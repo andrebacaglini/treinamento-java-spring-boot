@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "9f373771-1c9e-4beb-afe6-f78bd97dbea0",
+		"name": "TREINAMENTO_JAVA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET CATEGORIA_CURSO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categoria-curso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria-curso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST CATEGORIA_CURSO",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"descricao\" : \"Vou excluir\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria-curso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria-curso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT CATEGORIA_CURSO",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 6,\r\n        \"descricao\": \"Vou excluir mesmo\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria-curso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria-curso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE CATEGORIA_CURSO",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "idCategoriaCurso",
+						"value": "3",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/categoria-curso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria-curso"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
