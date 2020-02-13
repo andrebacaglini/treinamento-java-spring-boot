@@ -2,7 +2,7 @@
 
 Treinamento de Java com Spring Boot voltado para backend.
 
-Solução final: Criar API's REST para cadastro de cursos e categorias, assegurada com OAUTH2 (realizando controle interno de autenticação/autorização) e com exposição via Swagger UI.
+Solução final: Criar um container docker com API's REST para cadastro de cursos e categorias, assegurada com OAUTH2 (realizando controle interno de autenticação/autorização) e com exposição via Swagger UI.
 
 Topicos abordados:
 * JAVA 
