@@ -8,10 +8,10 @@ spring:
       name: treinamento
       
    datasource:
-      url: jdbc:mysql://172.18.0.2:3306/treinamento
+      url: jdbc:mysql://localhost:3000/treinamento
       driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
-      password: 'P4$sW0rd'
+      password: '#B4c4glini'
       
    jpa:
       show-sql: true
